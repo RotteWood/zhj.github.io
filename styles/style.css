@@ -1,3 +1,34 @@
-p {
-	color: red;
+html {
+	font-size: 10px;
+	/* Google fonts 输出的css */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00539F;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-shadow: -3px -3px 2px black;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+body {
+	width: 600px;
+	background-color: #FF9500;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
 }
